@@ -11,7 +11,7 @@ end
 
 -- declarations
 
-local Figure = script.Parent
+local Figure = game.Players.LocalPlayer.Character
 local Torso = waitForChild(Figure, "Torso")
 local RightShoulder = waitForChild(Torso, "Right Shoulder")
 local LeftShoulder = waitForChild(Torso, "Left Shoulder")
